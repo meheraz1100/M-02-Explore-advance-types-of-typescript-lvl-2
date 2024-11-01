@@ -12,7 +12,12 @@ const mentors : GenericArray<string> = ['Mr. x', 'Mr Y', 'Mr. Z'];
 
 
 // const boolArray : boolean[] = [true, false, true]
-const boolArray : GenericArray<boolean> = [true, false, true]
+const boolArray : GenericArray<boolean> = [true, false, true];
+
+interface User {
+    name: string;
+    age: number
+}
 
 
 const user : GenericArray<{name: string, age: number}> = [
